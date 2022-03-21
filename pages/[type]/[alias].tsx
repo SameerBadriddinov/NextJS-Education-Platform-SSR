@@ -49,6 +49,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
 }
 
 export const getStaticProps: GetStaticProps<TopPageProps> = async ({ params }: GetStaticPropsContext<ParsedUrlQuery>) => {
+
+  console.log(`Building slug: ${params}`)
   if (!params) {
     return {notFound: true}
   }

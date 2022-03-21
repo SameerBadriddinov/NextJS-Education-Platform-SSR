@@ -4,11 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "debug": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "stylelint": "stylelint \"**/*.css\" --fix"
+    "lint": "next lint"
   },
   "dependencies": {
     "axios": "^0.26.1",
