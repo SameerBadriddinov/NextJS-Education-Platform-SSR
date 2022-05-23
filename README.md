@@ -2,6 +2,6 @@
 
 # Run Application
 
-1-) npm install
+1-) yarn install
 
-2-) npm run dev
+2-) yarn dev
